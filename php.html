@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Prof Edvaneo">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="html5, javascript, css3, php">
+    <meta name="description" content="Construindo Sites Responsivo">
+    <link rel="shurtcut icon" href="img/favicon.ico">
+    <title>Teachers Programmers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/buttonTop.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+       .accordion{
+      background-color: #069;
+      color: #fff;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: 1px solid #036;
+      transition:0.4s;
+      font:20px Lato, sans-serif;
+      outline: none;
+    }
+    .panel{
+      padding: 0 18px;
+      background-color: white;
+      display: white;
+      display: none;
+      overflow: hidden;
+
+    }
+    p{
+      font: 16px Lato, sans-serif;
+    }
+    .active, .accordion:hover{
+      background-color: #036;
+    }
+    .accordion:after{
+      content: '\253F';
+      font-size: 15px;
+      float: right;
+      margin-left: 5px;
+    }
+    .active:after{
+      content: '\257E';
+
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <h1><span class="image"><img src="img/logo.png"></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="current"><a href="php.html">CONTEÚDO</a></li>
+            <li><a href="mysql.html">MATERIAL</a></li>
+            <li><a href="contatos.html">CONTATOS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="title2">
+      <div class="container">
+        <h1>Seja Empreendedor!</h1>
+        <form>
+          <input type="text" placeholder="Pesquise aqui...">
+          <button type="submit" class="botao">Buscar</button>
+        </form>
+      </div>
+    </section>
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <div class="image2"><img src="img/apertomao.jpg"></div>
+          <p>
+            O projeto final é a conclusão do curso, um apanhado geral do que foi ensinado ao longo das aulas, o aluno irá trabalhar montando uma empresa com esses conhecimentos, além de se aprofundar ainda mais em conceitos empreendedores.
+          </p>
+          <p class="caixa">
+            Ao longo dos últimos meses, você teve acesso a um monte de informações que com certeza te fizeram enxergar com outros olhos como mercado de trabalho funciona. Mas você já se sente preparado? Muitos podem até responder que sim, mas ainda falta aquele arremate com um pequeno projeto que vai envolver e relembrar tudo que você aprendeu até agora. Pronto para este desafio?<br><br>
+            Lá atrás, nós começamos a enxergar o caminho do empreendedorismo, e agora, vamos aperfeiçoar com os primeiros passos para empreender. Com tanta tecnologia, nunca foi tão fácil ter ideias inovadoras e desafiadoras. Basta um pouco de observação do seu cotidiano para transformar uma ideia, melhorar uma rotina de trabalho e solucionar problemas com habilidade e criatividade.<br><br>
+            A partir das boas ideias, a missão é se reunir com as pessoas certas para que negócio funcione. Depende de você encontrar o time ideal para compartilhar suas visões e trocar experiências. Certamente com as pessoas corretas, as ideias vão se complementar, formando as combinações perfeitas de competências, capacidades, estilos e qualificações.
+            Ao longo deste material, vamos apresentando casos de sucesso para mostrar que é possivel empreender bem e coim poucos recursos.
+          </p>
+        </article>
+        <aside id="sidebar">
+
+
+ <div class="caixa">
+            <h3 align="center">Identificação da Empresa</h3>
+            <button class="accordion">Ramo da Empresa</button>
+            <div class="panel">
+              <p>
+                <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/memorando.jpg"></td>
+                  </tr>
+                </table>
+              </p> 
+            </div>
+
+            <button class="accordion">Razão Social</button>
+            <div class="panel">
+              <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/oficio.jpg"></td>
+                  </tr>
+                </table>
+            </div>
+
+            <button class="accordion">Nome Fantasia</button>
+            <div class="panel">
+              <p>O ofício é um tipo de documento oficial, uma correspondência, o qual é utilizado por servidores e funcionários da Administração Pública. Trata-se de documento emitido por Prefeituras, suas secretarias e órgãos, ou por tribunais e outros entes do Estado.
+                      </p> 
+            </div>
+            <button class="accordion">Slogan</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Logomarca </button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">CNPJ - Cadastro Nacional de Pessoa Jurídica</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Missão, Visão e Valores</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Alvará</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+          </div>
+
+
+
+
+          <div class="caixa">
+            <h3 align="center">Documentos</h3>
+            <button class="accordion">Modelo de Memorando</button>
+            <div class="panel">
+              <p>
+                <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/memorando.jpg"></td>
+                  </tr>
+                </table>
+              </p> 
+            </div>
+
+            <button class="accordion">Modelo de Circular</button>
+            <div class="panel">
+              <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/oficio.jpg"></td>
+                  </tr>
+                </table>
+            </div>
+
+            <button class="accordion">Modelo de Ofício</button>
+            <div class="panel">
+              <p>O ofício é um tipo de documento oficial, uma correspondência, o qual é utilizado por servidores e funcionários da Administração Pública. Trata-se de documento emitido por Prefeituras, suas secretarias e órgãos, ou por tribunais e outros entes do Estado.
+                      </p> 
+            </div>
+            <button class="accordion">Modelo de Ata</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Declaração</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Aviso</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Boletim Informativo (Opcional)</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Envelope e Etiquetas (Opcional)</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+          </div>
+
+
+            <div class="caixa">
+            <h3 align="center">Plano de Marketing</h3>
+            <button class="accordion">Modelo de Folder</button>
+            <div class="panel">
+              <p>
+                <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/memorando.jpg"></td>
+                  </tr>
+                </table>
+              </p> 
+            </div>
+
+            <button class="accordion">Modelo de Banner</button>
+            <div class="panel">
+              <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+
+                    </td>
+                    <td><img src="img/oficio.jpg"></td>
+                  </tr>
+                </table>
+            </div>
+
+            <button class="accordion">Modelo de Panfleto</button>
+            <div class="panel">
+              <p>O ofício é um tipo de documento oficial, uma correspondência, o qual é utilizado por servidores e funcionários da Administração Pública. Trata-se de documento emitido por Prefeituras, suas secretarias e órgãos, ou por tribunais e outros entes do Estado.
+                      </p> 
+            </div>
+            <button class="accordion">Modelo de Outdoor</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Cartão de Visita</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de BackBus</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Placas de Sinalizações (Opcional)</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Site Empresarial (Opcional)</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+            <button class="accordion">Modelo de Envelope e Etiquetas (Opcional)</button>
+            <div class="panel">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+            </div>
+          </div>
+
+
+
+
+
+           <div class="caixa">
+            <h3 align="center">Plano de Financeiro</h3>
+            <button class="accordion">Modelo de Fluxo de Caixa</button>
+            <div class="panel">
+              <p>
+                <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+                    </td>
+                    <td><img src="img/memorando.jpg"></td>
+                  </tr>
+                </table>
+              </p> 
+            </div>
+
+            <button class="accordion">Modelo de Folha de Pagamento</button>
+            <div class="panel">
+              <table>
+                  <tr>
+                    <td>
+                    <p>Memorando é um gênero textual comum nas comunicações internas oficiais de instituições, empresas e órgãos públicos.</p>
+                    <p>
+                      Os memorandos servem como um meio de transmitir uma informação para funcionários de um mesmo local de maneira rápida e menos burocrática. Para isso, as respostas deste ato administrativo devem ser feitas no próprio memorando, evitando o acúmulo de documentações.</p>
+                    <p>A principal particularidade deste gênero textual é a objetividade. Por fazer parte da comunicação interna de um meio comercial, o memorando deve ser feito com uma linguagem breve, direta e precisa.</p>
+
+                    </td>
+                    <td><img src="img/oficio.jpg"></td>
+                  </tr>
+                </table>
+            </div>
+
+            <button class="accordion">Modelo de Licitação</button>
+            <div class="panel">
+              <p>O ofício é um tipo de documento oficial, uma correspondência, o qual é utilizado por servidores e funcionários da Administração Pública. Trata-se de documento emitido por Prefeituras, suas secretarias e órgãos, ou por tribunais e outros entes do Estado.
+                      </p> 
+            </div>
+          </div>
+
+
+        </aside>
+      </div>
+    </section>
+    <footer>
+      <button onclick="topFunction()" id="myBtn" title="Ir para o Topo"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></button>
+      <p>Copyright © 2018 Professor Edvaneo - Todos os direitos reservados</p>
+        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_black"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter" target="_black"></a>
+        <a href="https://www.google.com.br/" class="fa fa-google" target="_black"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_black"></a>
+    </footer>
+
+
+  <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for(i = 0; i < acc.length; i++){
+      acc[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if(panel.style.display === "block"){
+          panel.style.display = "none";
+        }else{
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  </body>
+</html>
